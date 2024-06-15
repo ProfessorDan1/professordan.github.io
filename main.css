@@ -1,0 +1,216 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+/* header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+justify-content:space-between ;
+  padding: 1em;
+} */
+
+header{
+  background-image: url(img/IMG-20230918-WA0089.jpg);
+  background-size: contain;
+  background:#35424a;
+  background: linear-gradient(blue,#35424a);
+  color:#ffffff;
+  /* color: #000; */
+  /* display: flex; */
+justify-content: flex-end;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:#e8491d 3px solid;
+}
+
+img.avatar {
+  width: 5%;
+}
+
+header h1 {
+  margin: 0%;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.modal {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #c5bfe4;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-top: 2px solid red;
+}
+
+/* .modal a:hover{
+  background-color: #2694dd;
+  color: #f2f2f2;
+} */
+
+.modal a:hover{
+  padding-bottom: 0.3rem;
+  border-bottom: 0.1rem solid #225687;
+}
+
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+.modal a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+header button{
+  text-align: center;
+  font-size: x-large;
+}
+
+/* 
+header nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+} */
+
+header nav ul li {
+  list-style: none;
+  margin: 0 1em;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+main {
+  padding: 2em;
+  background: url(img/IMG-20231008-WA0090.jpg);
+  background-size: cover;
+}
+
+section {
+  background-color: #fff;
+  padding: 2em;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+  margin-bottom: 2em;
+  /* border:#e8491d 3px solid; */
+}
+
+section h2 {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+.about h2{
+font-size: 32px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.about{
+  
+}
+ 
+.about a{
+ color: blue;
+ font-style: italic;
+}
+
+a:hover{
+  color: rgb(108, 240, 240);
+}
+
+.programs h2{
+  font-size: 32px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+border-bottom:#e8491d 3px solid;
+}
+
+.admission{
+  font-size: larger;
+  text-align: center;
+  width: fit-content;
+}
+.admission img{
+ width: 300px;
+  align-items: center;
+}
+
+footer {
+  background-color: #333;
+  background: linear-gradient(blue,#35424a);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+  font-size: 0.8em;
+}
+
+/* 
+.dropbtn {
+  position: inherit;
+  background-color: #333;
+  color: white;zz
+  margin: 0;
+  padding: 0;
+  margin: 0 1em;
+  font-size: 1.2em;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position:inherit;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #333;
+  color: #fff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: fff;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;
+color: #333;
+}
+.dropdown:hover .dropdown-content {display: block;}
+.dropbtn:hover {background-color: #3e8e41;} */

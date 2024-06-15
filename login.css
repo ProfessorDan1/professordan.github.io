@@ -1,0 +1,74 @@
+/* body{
+    background: url(img/IMG-20230918-WA0089.jpg);
+    min-height: 100vw;
+    backdrop-filter: blur(2px); */
+
+
+body{
+  background:url(img/IMG-20230918-WA0089.jpg);
+}
+
+
+.scrolling-text{
+  white-space: nowrap;
+  animation: marquee 10s linear infinite;
+  flex: content;
+  flex: 1000%;
+  font-size: 22px;
+  width: max-content;
+  background-color: red;
+ }
+@keyframes marquee{
+  from{
+      transform: translateX(50%);
+  }
+  to{
+      transform: translateX(-50%);
+  }
+}
+
+.login-container {
+    width: 400px;
+    margin: 0 auto;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  form {
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"], input[type="password"] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #48d1cc;
+    width: 50%;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+p{
+  padding: 0;
+  margin: 0;
+}
